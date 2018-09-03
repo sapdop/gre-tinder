@@ -1,0 +1,23 @@
+{
+  "name": "gre-tinder",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://sapdop.github.io/GREtinder",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "d3-array": "^1.2.4",
+    "d3-ease": "^1.0.5",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-move": "^2.8.0",
+    "react-scripts": "1.1.5",
+    "react-spring": "^5.6.12",
+    "react-with-gesture": "^1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

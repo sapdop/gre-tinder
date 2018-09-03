@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+#root {
+  background-color: #eee;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font: 28px/1em "Helvetica";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.item {
+  position: relative;
+  width: 420px;
+  height: 130px;
+  pointer-events: auto;
+  transform-origin: 50% 50% 0px;
+  border-radius: 10px;
+  color: rgb(153, 153, 153);
+  line-height: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 20px;
+  font-weight: 400;
+  box-sizing: border-box;
+  display: grid;
+  align-items: center;
+}
+
+.fg {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+}
+
+.bubble {
+  width: 50px;
+  height: 50px;
+  border-radius: 35%;
+  background-color: white;
+}
+
+.RightWall {
+  height: 100%;
+  width: 10%;
+  background-color: #badc58;
+  opacity: 0.65;
+  top: 0;
+  left: 90%;
+  position: absolute;
+}
+
+.LeftWall {
+  height: 100%;
+  width: 10%;
+  background-color: #ff7979;
+  opacity: 0.65;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
